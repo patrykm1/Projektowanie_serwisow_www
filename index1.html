@@ -1,0 +1,64 @@
+				1 formularz
+<html> 
+  <head>
+  <meta http-equiv="Content-Type" content="text/html ; charset=utf-8" />
+  <title>Formularz</title>
+   <body>
+	<center><h1>FORMULARZE</h1></center>
+	<p>
+	Dzięki formularzom można zbierać informacje do użytkowników witryny.
+	</p>
+	<p>Pole <b>INPUT</b> słuzy do wprowadzania danych tekstowych do formularza.
+	</p>
+
+	<h3>Pole INPUT do wprowadzania danych w formularzu </h3>
+	<form action="mailto:patryk.murawski1@gmail.com" methon="post">
+	Podaj swój adres e-mail:
+	<input name="adres" value="">
+	<input type="submit" value="Wyślij">
+	</form> 
+
+
+	<h3>Formularz zawierający pole tekstowe </h3>
+	<form action="mailto:patryk.murawski1@gmail.com" methon="post">
+	Podaj swoje imię i nazwisko:
+	<input type="text" name="nazwisko" value="" size="30">
+	</form> 
+
+
+	
+	<h3>Formularz zawierający pole opcji </h3>
+	<form action="mailto:patryk.murawski1@gmail.com" methon="post">
+	<input type="checkbox" name="opcje" value="" size="30">
+	Zgadzam sie na przetwarzanie moich danych osobowych.
+	</form> 
+
+	
+	<h3>Formularz zawierający grupę opcji </h3>
+	<form action="mailto:patryk.murawski1@gmail.com" methon="post">
+	<input type="radio" value="Podstawowe" name="grupa_opcji" checked>
+	Postawowe<br>
+	<input type="radio" value="Średnie" name="grupa_opcji">
+	Średnie<br>
+	<input type="radio" value="Wyższe" name="grupa_opcji">
+	wyższe
+	</form>
+
+
+	
+	<h3>Formularz zawierający pole wprowadzenia hasła </h3>
+	Podaj hasło
+	<form action="mailto:patryk.murawski1@gmail.com" methon="post">
+	<input type="password" name="haslo" size="10" maxlenght="14">
+	</form> 
+
+	
+	<h3>Formularz do dołączania plików</h3>
+	<form enctype="multipart/form-data" action="mailto:patryk.murawski1@gmail.com" method="post">
+	Wyślij ten plik
+	<input type="file" name="plik" size="30"?
+	</form>
+
+  </body>
+
+</html>
