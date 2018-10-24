@@ -16,3 +16,17 @@ function funkcja_zd() {
       myImage.setAttribute ('src','images/home-icon.png');
     }
 }
+function addEndText(){
+	var x = document.createElement('p');
+	x.innerText="tworze tekst";
+	document.body.appendChild(x);
+	x.classList.add('text-uppercase');
+	x.style.color = 'yellow';
+}
+
+function addNaglowek(){
+  var h1 = document.createElement('h1');
+  h1.innerText="naglowek";
+  document.body.insertBefore(h1,document.body.firstChild);
+  h1.style.fontFamily = 'Brush Script MT';
+}

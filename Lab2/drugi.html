@@ -1,8 +1,124 @@
 <html>
 <head>
-
+<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="styles/style2.css" rel="stylesheet" type="text/css">
+<title>Drugi HTML</title>
 </head>
 <body>
-
-</body>
+	<nav>
+		<a href="https://zacniewski.github.io/teaching/2018-serwisy-WWW">Programowanie serwisów www - dr Zacniewski</a>
+	</nav>
+	<h1>Nagłówek stopnia pierwszego</h1>
+	<h2>Nagłówek stopnia drugiego</h2>
+	<h3>Nagłówek stopnia trzeciego</h3>
+	<h4>Nagłówek stopnia czwartego</h4>
+	<h5>Nagłówek stopnia piątego</h5>
+	<h6>Nagłówek stopnia szóstego</h6>
+	
+	<p class="akapit">Akapit</p>
+	<p>Cytat: </p>
+	<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, 
+    scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. </blockquote>
+	<div>
+	<h3>Gatunki filmowe: </h3>
+		<ul>
+			<li>Sci-Fi</li>
+			<li>Komedia</li>
+			<li>Deokument</li>
+		</ul>
+	</div>	
+		  <pre>
+			________________________
+			|a1 | a2 | a3 | a4 | a5|
+			|b1 | b2 | b3 | b4 | b5|
+			|c1 | c2 | c3 | c4 | c5|
+			------------------------
+			<hr />
+			  --------------			
+			  |   Litery   |
+			  --------------
+			  | a |  b | c |
+			  | d |  e | f |
+			  | i |  j | k |
+			  --------------				
+  </pre>
+  
+	<input type="button" value=" Dodaj nagłówek" onclick="addNaglowek()"/>
+	<input type="button"  value=" Dodaj tekst na koniec" onclick="addEndText()"/>
+  
+	<figure>
+	  <img src="images/fi.png" alt="Litera Fi" alt="coś"/>
+	  <figcaption>
+		Rysunek 1. Grecka litera Fi
+	  </figcaption>
+	</figure>
+	<div style="margin-left: 5cm; font-size: 20px;">
+		<strong>Tekst strong &nbsp</strong>
+		<em>Tekst emfaza (kursywa) &nbsp</em>
+		<b>Tekst bold &nbsp</b>
+		<i>Tekst kursywa &nbsp</i>
+	</div>
+	<br>
+	<div>
+		<small> Mała czcionka</small><br>
+		Temperatura ciała człowieka to 36,6 <sup>o</sup>C. Wzór na dwutlenek węgla to CO<sub>2</sub>
+	</div>
+	<div>
+		<dfn>Książka</dfn> którą powinienem czytać to <cite>Systemy operacyjne</cite> <span style="color:red;">A. S. Tanenbauma.</span> Przykładowy cytat <q>Warunek wzajemnego wykluczania. W danym 
+		momencie każdy zasób albo jest przypisany dokładnie do jednego procesu, albo jest dostępny.</q>
+	</div>
+	
+	<iframe src="https://www.filmweb.pl" width="1200" height="250">
+	</iframe>
+	<div>
+		<audio src="Sleep Away.mp3" controls="controls">
+		</audio>
+		
+		<video controls="controls">
+			<source src="video.mp4" type="video/mp4" />
+		</video>
+		
+		<embed src="anim.swf" width="250" height="250"/> 
+	</div>
+	<div>
+	
+	<p class="tabela">Tabela</p>
+	<table>
+	  <tr>
+		<th>LP</th>	
+		<th>Gatunek fimu</th>
+		<th>Przykład fimu</th>
+		<th>Rok produkcji</th>
+	  </tr>
+	  <tr>
+		<th>1</th>
+		<td>Kryminał</td>
+		<td>Dziewczyna z tatuażem</td>
+		<td>2011</td>
+	  </tr>
+	  <tr>
+		<th>2</th>
+		<td>Dramat</td>
+		<td>Zielona mila</td>
+		<td>1999</td>
+	  </tr>
+	    <tr>
+		<th>3</th>
+		<td>Akcji</td>
+		<td>Matrix</td>
+		<td>1999</td>
+	  </tr>
+	   </tr>
+	    <tr>
+		<th>4</th>
+		<td>Fantasy</td>
+		<td>Władca Pierścieni: Powrót króla</td>
+		<td>2003</td>
+	  </tr>
+	</table>
+	</div>
+	
+	<script src="scripts/main.js"></script>
+	</body>
 <html>

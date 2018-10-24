@@ -1,0 +1,45 @@
+
+
+html {
+  background-color: #A9A9A9;
+}
+
+
+
+table, th, td
+      {
+        border-collapse:collapse;
+        border:1px solid black;
+        padding:5px;
+      }
+a
+{
+  text-decoration:none;
+  font-family:Arial,sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+}
+a:visited
+{
+  color:green;
+}
+
+a:hover
+{
+  color:red;
+}
+a:active
+{
+  color:blue;
+}
+.akapit {
+	font-size:14px;
+  color:blue;
+}
+p.tabela{
+	font-size:12px;
+  color:brown;
+}
+.text-uppercase{
+	text-transform: uppercase;	 
+}
