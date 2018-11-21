@@ -1,0 +1,11 @@
+<root>
+    <item name='org.springframework.web.bind.annotation.RequestParam'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+    <item name='org.springframework.web.bind.annotation.RequestParam boolean required()'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+    <item name='org.springframework.web.bind.annotation.RestController'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
