@@ -1,0 +1,27 @@
+SELECT * FROM `baza_aktorow`
+
+SELECT tytul, gatunek FROM `baza_filmow`
+
+SELECT tytul FROM `baza_filmow`
+
+SELECT * FROM `baza_aktorow` WHERE id=1
+
+SELECT * FROM `baza_filmow` WHERE rok_wyd='1999' OR rok_wyd='1994'
+
+SELECT * FROM `baza_aktorow` ORDER BY rok_urodzenia
+
+INSERT INTO baza_filmow (tytul, rok_wyd, gatunek) VALUES('Gra tajemnic', '2014', 'Dramat')
+
+SELECT tytul FROM `baza_filmow` WHERE rok_wyd IS NOT NULL
+
+UPDATE baza_aktorow SET imie='Anthony', nazwisko='Hopkins', rok_urodzenia='1937' WHERE id = 2
+
+DELETE FROM baza_filmow WHERE tytul='Gra tajemnic'
+
+SELECT * FROM `baza_aktorow` WHERE id > 1 LIMIT 2
+
+SELECT MIN(rok_urodzenia) AS Najstarszy FROM `baza_aktorow`
+
+SELECT baza_filmow.*, baza_aktorow.* FROM baza_filmow INNER JOIN baza_aktorow ON baza_aktorow.id = baza_filmow.id
+
+SELECT COUNT(rok_wyd), rok_wyd FROM baza_filmow GROUP BY rok_wyd;
